@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="show Analyze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:text="see daily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dailybutton"
+        android:textSize="25dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:text="see weekly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weeklybutton"
+        android:textSize="25dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:text="see monthly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/monthlybutton"
+        android:textSize="25dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:text="see by place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/placebutton"
+        android:textSize="25dp"
+        android:gravity="center_horizontal" />
+</LinearLayout>

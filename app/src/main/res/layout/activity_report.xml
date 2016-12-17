@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Do_textview"
+            android:gravity="center"
+            android:background="#3F0099"
+            android:text="I'm doing this : "
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.11" />
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"></Spinner>
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.05" />
+
+        <Button
+            android:id="@+id/buttonstart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+
+        <Button
+            android:id="@+id/buttonstop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop" />
+
+        <Button
+            android:id="@+id/buttonreset"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="take a photo"
+            android:id="@+id/photobtn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:id="@+id/buttonsave"
+            android:onClick="onSavebtnClicked" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            android:id="@+id/buttoncancel"/>
+
+    </LinearLayout>
+</LinearLayout>
